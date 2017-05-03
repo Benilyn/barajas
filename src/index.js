@@ -2,6 +2,10 @@
 
 function createDeck() {
 	return [];
-}
+} //createDeck
 
-module.exports = {createDeck};
+function createCard() {
+	return {value: 'A', suit: 'spades'};
+} //createCard
+
+module.exports = {createDeck, createCard};
