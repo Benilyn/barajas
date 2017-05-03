@@ -1,5 +1,7 @@
 function createDeck() {
-	return [];
+	return [
+		createCard('A', 'spades')
+	]; //return createCard
 } //createDeck
 
 function createCard(value, suit) {
