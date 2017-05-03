@@ -13,8 +13,16 @@ describe('Deck of Cards', function() {
 
 describe('Cards', function() {
 	it('should get A of spade', function() {
-		const card = barajas.createCard();
+		const card = barajas.createCard('spades');
 		card.should.be.a('object');
 		card.should.include.keys('value', 'suit');
+		card.suit.should.equal('spades');
 	}); //it (get A-spade)
+
+	it('should get A of heart', function() {
+		const card = barajas.createCard('hearts');
+		card.should.be.a('object');
+		card.should.include.keys('value', 'suit');
+		card.suit.should.equal('hearts');
+	}); //it (get A-heart)
 }); //describe (cards)

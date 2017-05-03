@@ -1,11 +1,10 @@
-
-
 function createDeck() {
 	return [];
 } //createDeck
 
-function createCard() {
-	return {value: 'A', suit: 'spades'};
+function createCard(suit) {
+	return {value: 'A', suit: suit};
 } //createCard
+
 
 module.exports = {createDeck, createCard};
