@@ -2,8 +2,8 @@ function createDeck() {
 	return [];
 } //createDeck
 
-function createCard(suit) {
-	return {value: 'A', suit: suit};
+function createCard(value, suit) {
+	return {value: value, suit: suit};
 } //createCard
 
 
