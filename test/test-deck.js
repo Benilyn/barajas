@@ -7,7 +7,7 @@ describe('Deck of Cards', function() {
 	it('should get a deck of cards', function() {
 		const deck = barajas.createDeck();
 		console.log(deck);
-		deck.length.should.equal(13);
+		deck.length.should.equal(52);
 		deck.should.be.a('array');	
 	}); //it (should get a deck of cards)
 
