@@ -22,5 +22,11 @@ describe('Deck of Cards', function() {
 		const card = barajas.createCard('K', 'spades');
 		deck.should.include(card);
 	}); //it (should have K of spades)
+
+	it('should have A of hearts', function() {
+		const deck = barajas.createDeck();
+		const card = barajas.createCard('A', 'hearts');
+		deck.should.include(card);
+	}); //it (should have A of hearts)
 }); //describe (Deck of Cards)
 
